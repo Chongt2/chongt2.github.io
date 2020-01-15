@@ -11,5 +11,6 @@ function removeText(clearFlag) {
     clearFlag = false;
     window.alert(clearFlag);
   }
+  window.alert(clearFlag);
   return;
 }
