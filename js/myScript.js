@@ -1,16 +1,11 @@
 // remove text from message when clicking
-var clearFlag = new Boolean(true);
-window.alert(clearFlag);
-function removeText(clearFlag) {
-  if (clearFlag == false){
+var x = document.getElementById("message").innerHTML;
+function removeText(x) {
+  if (x == "Hello World!"){
     document.getElementById("message").innerHTML = "";
-    clearFlag = true;
-    window.alert(clearFlag);
   }
   else {
     document.getElementById("message").innerHTML = "Hello World!";
-    clearFlag = false;
-    window.alert(clearFlag==false);
   }
   return;
 }
