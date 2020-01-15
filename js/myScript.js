@@ -1,5 +1,6 @@
 // remove text from message when clicking
 var clearFlag = new Boolean(true);
+window.alert(clearFlag);
 function removeText(clearFlag) {
   if (clearFlag == false){
     document.getElementById("message").innerHTML = "";
