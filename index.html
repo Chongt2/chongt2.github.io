@@ -7,9 +7,15 @@ href = "myStyle.css"/>
   <title>Welcome to my website</title>
 </head>
 <body>
+  <script>
+    function removeText() {
+      document.getElementsByClassName("message") = "";
+    }
+  </script>
   <div class = "wrapper">
     <div class = "upper-ui">
       <a class = "profile-button" href = "https://github.com/Chongt2">Chongt2</a>
+      <a class = "clear-button" >Clear</a>
     </div>
     <h1 class = "message">
       Hello World!

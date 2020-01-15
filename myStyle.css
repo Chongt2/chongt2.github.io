@@ -27,6 +27,16 @@ html, body {
   border-radius: 0.5em;
   text-decoration: none;
 }
+.clear-button {
+  position: absolute;
+  padding: 0.5em;
+  margin-left: 0.5em;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: #F6D55C;
+  border-radius: 0.5em;
+  text-decoration: none;
+}
 .message {
   color: white;
   text-align: center;
