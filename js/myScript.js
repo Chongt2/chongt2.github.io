@@ -5,12 +5,12 @@ function removeText(clearFlag) {
   if (clearFlag == false){
     document.getElementById("message").innerHTML = "";
     clearFlag = true;
-    window.alert(1,clearFlag);
+    window.alert(clearFlag);
   }
   else {
     document.getElementById("message").innerHTML = "Hello World!";
     clearFlag = false;
-    window.alert(2,clearFlag);
+    window.alert(clearFlag==false);
   }
   return;
 }
