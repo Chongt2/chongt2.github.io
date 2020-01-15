@@ -8,12 +8,12 @@ html, body {
 .wrapper {
   margin: 0;
   height: 100%;
-  background-color: #7395AE;
+  background-color: #20639B;
 }
 .upper-ui {
   height: 5em;
   color: white;
-  background-color: #557A95;
+  background-color: #173F5F;
 }
 .message {
   color: white;
