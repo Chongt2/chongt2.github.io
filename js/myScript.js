@@ -2,6 +2,6 @@
 function removeText() {
   // document.getElementsByClassName("message").value() = "";
   document.addEventListener(
-    "click", getELementsbyClassname("message").value = "");
+    "click", getELementsbyClassname("message").value() = "");
   return;
 }
