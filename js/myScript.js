@@ -1,20 +1,11 @@
 // remove text from message when clicking
-// var x = document.getElementById("message").innerHTML;
-// function removeText(x) {
 function removeText(){
-  var x = document.getElementById("message").innerHTML;
-  if(x == ""){
-    x = "Hello World!";
+  if(document.getElementById("message").innerHTML == ""){
+    document.getElementById("message").innerHTML = "Hello World!";
   }
   else{
-    x = "";
+    document.getElementById("message").innerHTML = "";
   }
-  alert(x == "");
-  // if (x == "Hello World!"){
-  //   x = "";
-  // }
-  // else {
-  //   x = "Hello World!";
-  // }
+  alert(document.getElementById("message").innerHTML == "");
   return;
 }
