@@ -1,3 +1,3 @@
 function removeText() {
-  document.getElementsByClassName("message") = "";
+  document.getElementsByClassName("message").value() = "";
 }
