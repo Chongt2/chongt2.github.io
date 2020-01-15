@@ -1,6 +1,11 @@
 .wrapper {
 
 }
+.upper-ui {
+  width: 3em;
+  color: white;
+  background-color: #8D8741;
+}
 .message {
   color: red;
   text-align: center;
