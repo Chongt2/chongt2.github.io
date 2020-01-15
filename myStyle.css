@@ -15,4 +15,5 @@ html, body {
 .message {
   color: white;
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
