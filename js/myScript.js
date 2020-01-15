@@ -6,6 +6,5 @@ function removeText(){
   else{
     document.getElementById("message").innerHTML = "";
   }
-  alert(document.getElementById("message").innerHTML == "");
   return;
 }
