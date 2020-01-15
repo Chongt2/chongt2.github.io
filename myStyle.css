@@ -17,7 +17,10 @@ html, body {
   background-color: #173F5F;
 }
 .profile-button {
+  padding: 0.5em;
+  margin: 1em;
   background-color: #F6D55C;
+  border-radius: 0.5em;
 }
 .message {
   color: white;
