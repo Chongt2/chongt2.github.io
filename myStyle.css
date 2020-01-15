@@ -1,6 +1,7 @@
 .wrapper {
-  margin: auto;
+
 }
 .message {
   color: red;
+  margin: auto;
 }
