@@ -39,7 +39,7 @@ html, body {
   text-decoration: none;
   cursor: pointer;
 }
-.message {
+#message {
   color: white;
   text-align: center;
 }
