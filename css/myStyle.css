@@ -18,7 +18,7 @@ html, body {
   background-color: #173F5F;
 }
 .profile-button {
-  position: absolute;
+  position: relative;
   padding: 0.5em;
   margin-left: 0.5em;
   margin-right: 0.5em;
@@ -29,7 +29,7 @@ html, body {
   text-decoration: none;
 }
 .clear-button {
-  position: absolute;
+  position: relative;
   padding: 0.5em;
   margin-left: 0.5em;
   top: 50%;
