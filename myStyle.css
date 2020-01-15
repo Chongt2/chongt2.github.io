@@ -12,15 +12,17 @@ html, body {
   background-color: #20639B;
 }
 .upper-ui {
+  position: relative;
   height: 3.5em;
   color: white;
   background-color: #173F5F;
 }
 .profile-button {
-  padding: 0.5em;
-  margin: 0;
   position: absolute;
+  padding: 0;
+  margin: 1em;
   top: 50%;
+  transform: translateY(-50%);
   background-color: #F6D55C;
   border-radius: 0.5em;
 }
