@@ -2,13 +2,14 @@
 // var x = document.getElementById("message").innerHTML;
 // function removeText(x) {
 function removeText(){
-  if(document.getElementById("message").innerHTML == ""){
-    document.getElementById("message").innerHTML = "Hello World!";
+  var x = document.getElementById("message").innerHTML;
+  if(x == ""){
+    x = "Hello World!";
   }
   else{
-    document.getElementById("message").innerHTML = "";
+    x = "";
   }
-  alert(document.getElementById("message").innerHTML == "");
+  alert(x == "");
   // if (x == "Hello World!"){
   //   x = "";
   // }
