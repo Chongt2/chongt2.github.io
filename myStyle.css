@@ -24,6 +24,7 @@ html, body {
   transform: translateY(-50%);
   background-color: #F6D55C;
   border-radius: 0.5em;
+  text-decoration: none;
 }
 .message {
   color: white;
