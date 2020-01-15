@@ -9,6 +9,5 @@ function removeText(){
   // else {
   //   x = "Hello World!";
   // }
-}
   return;
 }
