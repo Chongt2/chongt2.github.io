@@ -41,7 +41,7 @@ html, body {
   text-decoration: none;
   cursor: pointer;
 }
-/* .dropbtn {
+.dropbtn {
   position: relative;
   background-color: #F6D55C;
   padding: 0.5em;
@@ -53,7 +53,7 @@ html, body {
   border-radius: 0.5em;
   text-decoration: none;
   cursor: pointer;
-} */
+}
 .clear-button {
   position: relative;
   padding: 0.5em;
