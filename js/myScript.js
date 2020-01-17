@@ -10,10 +10,10 @@ function removeText() {
 }
 
 function changeColor() {
-  if(document.getElementById("message").style.color = "white")
-    document.getElementById("message").style.color = "red";
-  else {
+  if(document.getElementById("message").style.color = "red")
     document.getElementById("message").style.color = "white";
+  else {
+    document.getElementById("message").style.color = "red";
   }
   return;
 }
