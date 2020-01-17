@@ -10,7 +10,7 @@ function removeText() {
 }
 
 function changeColor() {
-  if(document.getElementById("message").style.color = "White";)
+  if(document.getElementById("message").style.color = "White")
     document.getElementById("message").style.color = "Red";
   else {
     document.getElementById("message").style.color = "White";
