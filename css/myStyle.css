@@ -48,6 +48,12 @@ html, body {
   text-decoration: none;
   cursor: pointer;
 }
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F6D55C;
+}
+.dropdown:hover .dropdown-content {display: block;}
 .clear-button {
   position: relative;
   padding: 0.5em;
