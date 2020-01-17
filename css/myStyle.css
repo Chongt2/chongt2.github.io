@@ -29,6 +29,7 @@ html, body {
   text-decoration: none;
 }
 .dropdown {
+  overflow-x: overlay;
   position: relative;
   background-color: #F6D55C;
   padding: 0.5em;
