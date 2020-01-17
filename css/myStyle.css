@@ -29,10 +29,12 @@ html, body {
   text-decoration: none;
 }
 .dropbtn {
+  position: relative;
   background-color: #F6D55C;
   color: white;
   padding: 0.5em;
   margin-left: 0.5em;
+  margin-right: 0.5em;
   top: 50%;
   transform: translateY(-50%);
   background-color: #F6D55C;
