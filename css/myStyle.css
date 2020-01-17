@@ -29,22 +29,15 @@ html, body {
   text-decoration: none;
 }
 .dropdown {
-  overflow-x: overlay;
+  display: inline-block;
   position: relative;
-  background-color: #F6D55C;
-  padding: 0.5em;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  padding: 0;
   top: 50%;
-  transform: translateY(-50%);
-  background-color: #F6D55C;
-  border-radius: 0.5em;
   text-decoration: none;
   cursor: pointer;
 }
 .dropbtn {
   position: relative;
-  background-color: #F6D55C;
   padding: 0.5em;
   margin-left: 0.5em;
   margin-right: 0.5em;
